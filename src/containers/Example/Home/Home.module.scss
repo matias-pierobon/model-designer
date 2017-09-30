@@ -1,0 +1,14 @@
+$primary-color: blue;
+.test {
+    color: $primary-color;
+}
+.home {
+    @extend .test;
+    background-color: white;
+    
+}
+.container {
+    p {
+        margin: 10px * 2;
+    }
+}
